@@ -40,6 +40,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 
 app = dash.Dash()
+server = app.server # Added by me
 
 app.layout = html.Div(children=[
     html.H1(children='Hello Dash'),
